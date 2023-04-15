@@ -27,14 +27,15 @@ public class SubstringSearch {
     }
     
     // Method to print the output of this program. 
-    public static void print(String s, string u){
-
+    public static void print(String s, String u) {
+        System.out.println("The string being searched is: " + s);
+        System.out.println("The substring being searched for is");
     }
     
     public static void main(String[] args) {
         String s = "Happy happy joy joy";
         String u = "happy";
         int index = search(s, u);
-        System.out.println("result:")
+        System.out.println("result:");
     }
 }
